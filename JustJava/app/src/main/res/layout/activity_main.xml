@@ -10,16 +10,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        
         <LinearLayout
-            android:orientation="vertical"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/holo_blue_light"
-            android:descendantFocusability="beforeDescendants"
-            android:focusableInTouchMode="true">
+            style="@style/MainLinearStyle">
 
             <TextView
                 android:layout_width="match_parent"
@@ -35,19 +28,13 @@
                 android:background="@android:color/holo_blue_dark"/>
 
             <TextView
-                android:layout_marginBottom="16dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/toppings_title_text"
-                android:textAllCaps="true"
-                android:textColor="#696969"/>
+                style="@style/SectionHeader"
+                android:text="@string/toppings_title_text"/>
 
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:background="@android:color/holo_orange_light"
-                android:layout_marginBottom="16dp">
+                android:background="@android:color/holo_orange_light">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
@@ -55,55 +42,33 @@
                     android:paddingTop="4dp"
                     android:orientation="vertical">
                     <CheckBox
+                        style="@style/CheckboxStyle"
                         android:id="@+id/whip_check_view"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:text="@string/whipcream_checkbox_text"
-                        android:textSize="16sp"
-                        android:paddingLeft="24dp"
-                        android:layout_marginBottom="16dp"/>
+                        />
                     <CheckBox
+                        style="@style/CheckboxStyle"
                         android:id="@+id/choc_check_view"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/chocolate_checkbox_text"
-                        android:textSize="16sp"
-                        android:paddingLeft="24dp"
-                        android:layout_marginBottom="16dp"/>
+                        android:text="@string/chocolate_checkbox_text"/>
                     <CheckBox
+                        style="@style/CheckboxStyle"
                         android:id="@+id/caramel_check_view"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/caramel_checkbox_text"
-                        android:textSize="16sp"
-                        android:paddingLeft="24dp"
-                        android:layout_marginBottom="16dp"/>
+                        android:text="@string/caramel_checkbox_text"/>
                     <CheckBox
+                        style="@style/CheckboxStyle"
                         android:id="@+id/cocoa_check_view"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/cocoa_checkbox_text"
-                        android:textSize="16sp"
-                        android:paddingLeft="24dp"
-                        android:layout_marginBottom="16dp"/>
+                        android:text="@string/cocoa_checkbox_text"/>
                     <CheckBox
+                        style="@style/CheckboxStyle"
                         android:id="@+id/milk_check_view"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:text="@string/milk_checkbox_text"
-                        android:textSize="16sp"
-                        android:paddingLeft="24dp"
                         android:layout_marginBottom="4dp"/>
                 </LinearLayout>
             </ScrollView>
 
             <TextView
-                android:layout_marginBottom="16dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/quantity_title_text"
-                android:textAllCaps="true"
-                android:textColor="#696969" />
+                style="@style/SectionHeader"
+                android:text="@string/quantity_title_text" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -111,13 +76,9 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/SmallButtonStyle"
                     android:layout_marginRight="16dp"
-                    android:textColor="@android:color/black"
                     android:text="-"
-                    android:background="@android:color/white"
                     android:onClick="decrement" />
                 <TextView
                     android:id="@+id/quantity_view"
@@ -128,11 +89,8 @@
                     android:text="0"
                     android:textSize="16sp" />
                 <Button
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:textColor="@android:color/black"
+                    style="@style/SmallButtonStyle"
                     android:text="+"
-                    android:background="@android:color/white"
                     android:onClick="increment" />
             </LinearLayout>
 
