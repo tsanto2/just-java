@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JustJava</string>
+    <string name="app_title_text">Justito Java-ito</string>
+    <string name="toppings_title_text">Toppingitos</string>
+    <string name="quantity_title_text">Quantititos</string>
+    <string name="whipcream_checkbox_text">Whipped Creamito</string>
+    <string name="chocolate_checkbox_text">Chocolatito</string>
+    <string name="caramel_checkbox_text">Caramelito</string>
+    <string name="cocoa_checkbox_text">Cocoa Powdito</string>
+    <string name="milk_checkbox_text">Milkito</string>
+    <string name="send_hint_text">Sendito to-ito...</string>
+    <string name="send_button_text">Sendo el Ordero</string>
+</resources>

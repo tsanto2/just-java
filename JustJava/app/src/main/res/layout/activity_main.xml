@@ -24,7 +24,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Just Java"
+                android:text="@string/app_title_text"
                 android:textSize="48sp"
                 android:fontFamily="cursive"
                 android:textAlignment="center"
@@ -39,7 +39,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="TOPPINGS"
+                android:text="@string/toppings_title_text"
+                android:textAllCaps="true"
                 android:textColor="#696969"/>
 
             <ScrollView
@@ -57,7 +58,7 @@
                         android:id="@+id/whip_check_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Whipped Cream"
+                        android:text="@string/whipcream_checkbox_text"
                         android:textSize="16sp"
                         android:paddingLeft="24dp"
                         android:layout_marginBottom="16dp"/>
@@ -65,7 +66,7 @@
                         android:id="@+id/choc_check_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Chocolate"
+                        android:text="@string/chocolate_checkbox_text"
                         android:textSize="16sp"
                         android:paddingLeft="24dp"
                         android:layout_marginBottom="16dp"/>
@@ -73,7 +74,7 @@
                         android:id="@+id/caramel_check_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Caramel"
+                        android:text="@string/caramel_checkbox_text"
                         android:textSize="16sp"
                         android:paddingLeft="24dp"
                         android:layout_marginBottom="16dp"/>
@@ -81,7 +82,7 @@
                         android:id="@+id/cocoa_check_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cocoa Powder"
+                        android:text="@string/cocoa_checkbox_text"
                         android:textSize="16sp"
                         android:paddingLeft="24dp"
                         android:layout_marginBottom="16dp"/>
@@ -89,7 +90,7 @@
                         android:id="@+id/milk_check_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Milk"
+                        android:text="@string/milk_checkbox_text"
                         android:textSize="16sp"
                         android:paddingLeft="24dp"
                         android:layout_marginBottom="4dp"/>
@@ -100,7 +101,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="QUANTITY"
+                android:text="@string/quantity_title_text"
+                android:textAllCaps="true"
                 android:textColor="#696969" />
 
             <LinearLayout
@@ -144,7 +146,7 @@
                 android:paddingBottom="8dp"
                 android:paddingLeft="8dp"
                 android:inputType="textEmailAddress"
-                android:hint="Send to..."
+                android:hint="@string/send_hint_text"
                 android:textColorHint="@android:color/holo_orange_dark"
                 android:textColor="@android:color/black"
                 android:background="@android:color/holo_orange_light"/>
@@ -155,7 +157,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                android:text="SEND ORDER"
+                android:text="@string/send_button_text"
+                android:textAllCaps="true"
                 android:textColor="@android:color/black"
                 android:background="@android:color/white"
                 android:onClick="submitOrder"/>

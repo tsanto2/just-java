@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">JustJava</string>
+    <string name="app_title_text">Just Java</string>
+    <string name="toppings_title_text">Toppings</string>
+    <string name="quantity_title_text">Quantity</string>
+    <string name="whipcream_checkbox_text">Whipped Cream</string>
+    <string name="chocolate_checkbox_text">Chocolate</string>
+    <string name="caramel_checkbox_text">Caramel</string>
+    <string name="cocoa_checkbox_text">Cocoa Powder</string>
+    <string name="milk_checkbox_text">Milk</string>
+    <string name="send_hint_text">Send to...</string>
+    <string name="send_button_text">Send Order</string>
 </resources>
